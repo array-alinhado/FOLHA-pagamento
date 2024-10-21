@@ -3,7 +3,7 @@ os.system("cls || clear")
 
 #Aluno = Itauã Gualberto G-93313 
 # Feito com amor :)
-
+ 
 
 def limpar_tela():
     os.system("cls || clear")
@@ -74,7 +74,7 @@ def adicionar_empregado():
 def calcular_folha(empregado):
     salario_bruto = float(input(f"Digite o salário bruto de {empregado['nome']} {empregado['sobrenome']}: "))
     vale_transport = input("Quer ter o vale transporte? [S/N]: ").upper().strip() == 'S'
-    vale_refeicao = float(input("Digite o valor do vale fornecido pela empresa: "))
+    vale_refeicao = float(input("Digite o valor do vale refeição fornecido pela empresa: "))
     
     dependentes = int(input("Quantos dependentes você possui? "))
 
@@ -105,7 +105,8 @@ def menu():
         print("1. Adicionar empregado")
         print("2. Calcular Folha de Pagamento")
         print("3. Sair")
-        
+        print("===== Folha de Pagamento =====""\n")
+                
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
@@ -117,7 +118,7 @@ def menu():
                 if senha_digitada == empregado['senha']:  # Verifica se a senha está correta
                     calcular_folha(empregado)
                 else:
-                    print("Senha ta errada meu mano,tente mais tarde.")
+                    print("Senha ta errada meu mano,tente mais tarde >:).")
                     break  # Encerra o programa se a senha estiver errada.
         elif opcao == "3":
             limpar_tela()
