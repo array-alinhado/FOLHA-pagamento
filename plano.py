@@ -1,6 +1,10 @@
 import os
 os.system("cls || clear")
 
+#Aluno = Itauã Gualberto G-93313 
+# Feito com amor :)
+
+
 def limpar_tela():
     os.system("cls || clear")
 
