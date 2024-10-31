@@ -1,7 +1,7 @@
 import os
 os.system("cls || clear")
 
-#Aluno = Itauã Gualberto G-93313 
+# Aluno = Itauã Gualberto G-93313 
 # Feito com amor :)
  
 
